@@ -1,2 +1,2 @@
 # nuget-all
-Meta Package for all the nuget Packages
+meta package for all major Conesoft Nuget libraries
