@@ -1,0 +1,27 @@
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+	<metadata>
+		<id>Conesoft.All</id>
+		<version>1.0.0</version>
+		<authors>davepermen</authors>
+		<owners>Microsoft</owners>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<readme>README.md</readme>
+		<license type="file">LICENSE.txt</license>
+		<icon>Conesoft.forNuget.x256.png</icon>
+		<projectUrl>https://github.com/conesoft/nuget-all</projectUrl>
+		<iconUrl>https://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+		<description>Conesoft.All</description>
+		<copyright>Copyright © Conesoft</copyright>
+		<tags>aspnetcore</tags>
+		<dependencies>
+			<dependency id="Conesoft.Files" version="[1.0,)" />
+			<dependency id="Conesoft.Users" version="[1.0,)" />
+			<dependency id="Conesoft.Hosting" version="[1.0,)" />
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="Conesoft.forNuget.x256.png" target="" />
+		<file src="..\README.md" target="" />
+		<file src="..\LICENSE.txt" target="" />
+	</files>
+</package>
