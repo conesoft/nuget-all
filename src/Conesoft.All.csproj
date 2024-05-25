@@ -1,17 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net7.0</TargetFramework>
+		<TargetFramework>net8.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<RootNamespace>Conesoft.All</RootNamespace>
 	</PropertyGroup>
 
 	<PropertyGroup>
-		<Version>1.0.1</Version>
+		<Version>1.0.2</Version>
 		<Authors>davepermen</Authors>
 		<Company>Conesoft</Company>
 		<PackageIcon>Conesoft.forNuget.x256.png</PackageIcon>
-		<PackageProjectUrl>https://github.com/conesoft/nuget-files</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/conesoft/nuget-all</PackageProjectUrl>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<Description>meta package for all major Conesoft Nuget libraries</Description>
@@ -28,6 +28,7 @@
 		<PackageReference Include="Conesoft.Files" Version="*" />
 		<PackageReference Include="Conesoft.Hosting" Version="*" />
 		<PackageReference Include="Conesoft.Users" Version="*" />
+		<PackageReference Include="Conesoft.Tools" Version="*" />
 		<PackageReference Include="Humanizer.Core" Version="*" />
 	</ItemGroup>
 
